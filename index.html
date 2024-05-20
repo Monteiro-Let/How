@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Costura & Brechó</title>
 </head>
 <body>
@@ -10,22 +12,22 @@
         <nav class="navBar-top">
             <div class="social-media">
                 <ul class="list-media">
-                    <li class="#"></li>
-                    <li class="#"></li>
-                    <li class="#"></li>
-                    <li class="#"></li>
+                    <li><span class="bi bi-facebook"></span></li>
+                    <li><span class="bi bi-instagram"></span></li>
+                    <li><span class="bi bi-twitter-x"></span></li>
+                    <li><span class="bi bi-pinterest"></span></li>
                 </ul>
             </div>
             <h1 class="title">Costura & Brechó</h1>
             <div class="login-cart">
-                <ul>
-                    <li>Login</li>
-                    <li>Carrinho</li>
+                <ul class="list-loginCart">
+                    <li id="Login">Login</li>
+                    <li id="Cart">Carrinho(0)</li>
                 </ul>
             </div>
         </nav>
         <nav class="navBar-bottom">
-            <ul>
+            <ul class="list-bottom">
                 <li><a href="#">Página Inicial</a></li>
                 <li><a href="#">Coleção</a></li>
                 <li><a href="#">Nossa História</a></li>
@@ -34,6 +36,38 @@
             </ul>
         </nav>
     </header>
-    
-</body>
+    <section class="banner">
+        <div class="banner-img">
+            <h2 class="title-banner">TONS SUAVES</h2>
+            <button class="button-banner">Ver a Coleção</button>
+        </div>
+    </section>
+    <section class="sales">
+        <div class="title-salesSection">
+            <h2 class="title-sales">MAIS VENDIDOS</h2>
+        </div>
+        <div class="section-sales">
+            <div class="product">
+                <img src="https://img.freepik.com/fotos-gratis/linda-elegancia-e-bolsa-de-moda-feminina-de-luxo_74190-4898.jpg?t=st=1716160999~exp=1716164599~hmac=fbd186aa8e4aa83e0765bde713d7dada25e2e1043313ab1a01db433eb261596b&w=360" alt="">
+                <p class="descrption">Bolsa Megan</p>
+                <p class="price">R$500, 00</p>
+            </div>
+            <div class="product">
+                <img src="https://img.freepik.com/fotos-gratis/bolsa_1203-8313.jpg?t=st=1716161042~exp=1716164642~hmac=19fb96edb94295912d11763c5bdae7e107813bb7406d43d7b384acec67d0463d&w=360" alt="">
+                <p class="descrption">Bolsa Dior</p>
+                <p class="price">R$900, 00</p>
+            </div>
+            <div class="product">
+                <img src="https://img.freepik.com/fotos-gratis/mao-de-moda-novas-mulheres-de-luxo_1203-6508.jpg?t=st=1716161130~exp=1716164730~hmac=0a3b34edbd894a72b404e57fec50b593b6d5e4a94fa888b834017bc60374c847&w=826" alt="">
+                <p class="descrption">Bolsa Jolie</p>
+                <p class="price">R$750, 00</p>
+            </div>
+            <div class="product">
+                <img src="https://img.freepik.com/fotos-gratis/fundo-bolsa-lidar-fashion_1203-6492.jpg?t=st=1716161365~exp=1716164965~hmac=46c16d612de3f9f8282f2ca46f5bd842d96c64b199f595edfd22126b21654a52&w=826" alt="">
+                <p class="descrption">Bolsa Esmeralda</p>
+                <p class="price">R$ 950, 00</p>
+            </div>
+        </div>
+        <div class="button-sectionSales"><button class="button-sales">Todas as Bolsas</button></div>
+    </section>
 </html>

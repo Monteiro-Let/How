@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    color: #bc4c2a;
+    font-family: GFS Didot, Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-bar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.navBar-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.list-media, .list-loginCart {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+#Login {
+    color: black;
+}
+
+span {
+    color: black;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.navBar-bottom ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 30px;
+    font-family: Poppins;
+    font-weight: lighter;
+}
+
+.navBar-bottom ul li a {
+    color: black;
+}
+
+.banner {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Poppins;
+    color: white;
+    background-color: blueviolet;
+    height: 350px;
+    background-image: url(https://img.freepik.com/fotos-gratis/feche-os-detalhes-da-moda-de-uma-mulher-elegante-em-um-terno-roxo-andando-na-rua-da-cidade-primavera-verao-outono-temporada-tendencia-da-moda-segurando-bolsa_285396-6993.jpg?t=st=1716153297~exp=1716156897~hmac=9a28c170939298b449045db1302dc9ef41625ccaa7612546295ade8e985a35c8&w=826);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.title-banner {
+    font-size: 40px;
+}
+
+.button-banner {
+    margin-top: 30px;
+   padding: 15px 30px;
+   color: white; 
+   border: 1px solid white;
+   background-color: transparent;
+   font-size: 15px;
+}
+
+.button-banner:hover {
+    color: #bc4c2a;
+    background-color: white;
+}
+
+.title-sales {
+    text-align: center;
+    color: black;
+    font-family: Poppins;
+    font-size: 40px;
+}
+
+.sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.section-sales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product {
+    border: solid 1px gainsboro;
+}
+
+.product img {
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.descrption, .price {
+    text-align: center;
+    font-family: Poppins;
+}
+
+.descrption {
+    color: black;
+}
+
+.sales .button-sectionSales {
+    display: flex;
+    justify-content: center;
+}
+
+.button-sales {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+   width: 200px;
+   color: #bc4c2a; 
+   border: 1px solid #bc4c2a;
+   background-color: transparent;
+   font-size: 15px;
+}
+
+.button-sales:hover {
+    color: white;
+    background-color: #bc4c2a;
+}
